@@ -47,6 +47,8 @@ ul a:hover {
 	background-repeat: no-repeat;
 	background-position: center;
 	padding: 220px 0px 150px 0px;
+	position: relative;
+	z-index: 1;
 }
 .sec-1--box {
 border: 3px solid #fff;
@@ -133,13 +135,30 @@ display: block;
 	}
 	.sec-2--title {
 		padding: 255px 0px 30px 0px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: bold;
+		text-transform: uppercase;
+		font-size: 20px;
 	}
 	.sec-2--parag {
 		margin-bottom: 30px;
+		font-size: 14px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400;
+		color: #9b9a9a;
+		line-height: 25px;
 	}
-	.btn-blue-rm {
+	.sec-2--btn-blue {
 		margin-bottom:  230px;
+		background: #36aeea;
+		color: #fff;
+		border: 3px solid transparent;
+		min-width: 125px;
+		font-size: 12px;
+		letter-spacing: 2px;
+		padding: 10px 0px;
 	}
+	
 	.sec-2--imgbox {
 		float: right;
 		width: 60%;
@@ -152,7 +171,7 @@ display: block;
 		position: absolute;
 		bottom: 40px;
 		left: -54px;
-		z-index: 2;
+		z-index: 3;
 	}
 	.sec-2--2img {
 		max-width: 800px;
@@ -160,7 +179,7 @@ display: block;
 		position: absolute;
 		left: 37px;
 		bottom: 130px;
-		z-index: 1;
+		z-index: 2;
 	}
 .sec-2--titlebox {
 	float: left;
