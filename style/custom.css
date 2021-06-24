@@ -1,3 +1,4 @@
+
 .container {
 	max-width: 1170px;
 	padding: 0px 15px;
@@ -53,6 +54,21 @@ ul a:hover {
 .sec-1--box {
 border: 3px solid #fff;
 padding: 35px 35px;
+overflow: hidden;
+}
+.sec-1--textwidth{
+	width: calc(50%);
+	float: left;
+}
+.sec-1--textwidthimg{
+	float: right;
+	width: calc(50%);
+	position: relative;
+}
+.sec-1--manimg{
+	position: absolute;
+	bottom: -165px;
+	right: 185px;
 }
 .sec-1-title--white {
 	display: block;
@@ -132,6 +148,7 @@ display: block;
 	background-position: 190px 25px;
 	background-color: #f6f4f4;
 	overflow: hidden;
+	clear: both;
 	}
 	.sec-2--title {
 		padding: 255px 0px 30px 0px;
@@ -162,26 +179,27 @@ display: block;
 	.sec-2--imgbox {
 		float: right;
 		width: 60%;
-		position: relative;
+		position: absolute;
 		clear: both;
 	}
 	.sec-2--1img {
 		max-width: 350px;
 		height: 350px;
-		position: absolute;
-		bottom: 40px;
-		left: -54px;
+		position: relative;
+		bottom: -280px;
+		left: 415px;
 		z-index: 3;
 	}
 	.sec-2--2img {
 		max-width: 800px;
 		height: 570px;
-		position: absolute;
-		left: 37px;
-		bottom: 130px;
+		position: relative;
+		left: 505px;
+		bottom: 400px;
 		z-index: 2;
 	}
 .sec-2--titlebox {
 	float: left;
 	width: 40%;
 }
+
