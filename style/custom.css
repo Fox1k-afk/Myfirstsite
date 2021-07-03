@@ -1,20 +1,60 @@
-.container {
-	width: 500px;
-	height: 500px;
-	margin: 50px auto;
+.navbar {
+	font-weight: 800;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
-.fa-instagram {
-	border: 0px solid black;
-	padding: 25px;
-	border-radius: 30px;
-	background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), 
-	radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), 
-	radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), 
-	radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), 
-	radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), 
-	radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), 
-	radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), 
-	linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
-	color: white;
+.navbar-inverse {
+	background: #2d2d2d;
+	border-color: #2d2d2d;
 }
+
+.navbar-inverse .navbar-nav > .active > a {
+	background-color: gold;
+}
+
+.navbar-inverse .navbar-brand {
+	color: gold;
+	font-weight: bolder;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+.dropdown {
+	margin-top: 25px;
+}
+
+.form-inline {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 300px;
+	margin: auto;
+	text-align: center;
+	font-family: arial;
+  }
+  
+  .price {
+	color: grey;
+	font-size: 22px;
+  }
+  
+  .card button {
+	border: none;
+	outline: 0;
+	padding: 12px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+  }
+  
+  .card button:hover {
+	opacity: 0.7;
+  }
