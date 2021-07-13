@@ -219,10 +219,13 @@ display: block;
 
 .sec-6 {
 	background-image: url(../img/worldmap-dots.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: -235px 47px;
 }
 
 .sec-6--titlebox {
-	padding-top: 150px;
+	padding-top: 60px;
     padding-bottom: 100px;
 }
 
@@ -239,7 +242,6 @@ display: block;
 	background-image: url(../img/1slide.png);
 	min-height: 380px;
 	background-repeat: no-repeat;
-
 }
 
 .slide1--title {
@@ -460,3 +462,5 @@ display: block;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0px -180px;
+	position: relative;
+	z-index: 5;
