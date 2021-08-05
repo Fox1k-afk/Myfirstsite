@@ -286,28 +286,40 @@
 			</div>
 			<div class="sec-6--colorbg"></div>
 		</section>
-	</main>
+		<section class="sec-7">
+			<div class="container">
+				<div class="sec-7_wrapper">
+					<div class="sec-7_title">gallery</div>
+					<div class="gallery">
+						<div class="gallery__item gallery__item_1"></div>
+						<div class="gallery__item gallery__item_2"></div>
+						<div class="gallery__item gallery__item_3"></div>
+						<div class="gallery__item gallery__item_4"></div>
+						<div class="gallery__item gallery__item_5"></div>
+						<div class="gallery__item gallery__item_6"></div>
+					</div>
+				</div>
+			</div>
+			< </section> </main> <script src="https://kit.fontawesome.com/4f54632690.js" crossorigin="anonymous">
+				</script>
+				<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+					integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+				<script src="./Owlcarousel/owl.carousel.min.js"></script>
 
+				<script>
+					$(document).ready(function () {
+						$(".owl-carousel").owlCarousel({
+							items: 5,
+							margin: 35,
+							loop: true,
+							dots: false,
+							nav: true,
+							autoplayTimeout: 2000,
+							autoplayHoverPause: true,
 
-	<script src="https://kit.fontawesome.com/4f54632690.js" crossorigin="anonymous"></script>
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
-		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-	<script src="./Owlcarousel/owl.carousel.min.js"></script>
-
-	<script>
-		$(document).ready(function () {
-			$(".owl-carousel").owlCarousel({
-				items: 5,
-				margin: 35,
-				loop: true,
-				dots: false,
-				nav: true,
-				autoplayTimeout: 2000,
-				autoplayHoverPause: true,
-
-			});
-		});
-	</script>
+						});
+					});
+				</script>
 </body>
 
 </html>
